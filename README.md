@@ -1,18 +1,15 @@
 # GoBarber-backend
 Backend do projeto GoBarber 
 <p align="center" >
-<img align="center" src="/assets/banner.svg" />
 <a href="https://www.linkedin.com/in/jorlan-miranda-624b9610b/"><img src="https://img.shields.io/badge/LinkedIn-Jorlan%20Miranda-blue"></a>
 </p>
 <h1 align="center">GoBarber</h1>
-<p align="center">Tornando o mundo melhor colaborando com a coleta de resíduos</p>
 
 <h5 align="center"> 🚀 Projeto em andamento 🚀 </h5>
 
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Funcionalidades](#funcionalidades)
    * [Tecnologias utilizadas](#tecnologias-utilizadas)
    * Instalação
       * [Pré requisitos](#pré-requisitos)
@@ -40,7 +37,7 @@ Tabela de conteúdos
 Você precisa ter instalado em sua máquina as seguintes ferramentas:
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/) 
-- [Docker](https://www.docker.com/) 
+- [Docker](https://www.docker.com/) - Pra ajudar na configuração do docker, você pode seguir esse [tutorial](https://www.notion.so/Instalando-Docker-6290d9994b0b4555a153576a1d97bee2)
 
 ### 🎲 Clonando o repositório
 
@@ -60,6 +57,15 @@ $ npm install
 ou
 $ yarn install
 
+#Criando o container no docker
+docker run --name postgres -e POSTGRES_PASSWORD=docker -d postgres
+
+#Você pode alterar o name e POSTGRES_PASSWORD, mas lembre de alterar os campos username e password em ormconfig.json, na pasta raíz
+
+#Após criar o banco postgres, você deve criar um database com o nome gostack_gobarber. Você também pode alterar o nome do database, mas lembre
+#de alterar o campo database dele em ormconfig.json. Eu utilizo o dbeaver para criar o database, mas você pode utilizar o de sua preferência.
+
+
 # Criar o banco de dados
 $ npm run typeorm migration:run
 
@@ -72,6 +78,7 @@ ou
 $ yarn dev:server
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
 
 ```
 
