@@ -1,5 +1,4 @@
 # GoBarber-backend
-Backend do projeto GoBarber 
 <p align="center" >
 <a href="https://www.linkedin.com/in/jorlan-miranda-624b9610b/"><img src="https://img.shields.io/badge/LinkedIn-Jorlan%20Miranda-blue"></a>
 </p>
