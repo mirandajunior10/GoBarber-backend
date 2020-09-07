@@ -65,9 +65,7 @@ $ npm run typeorm migration:run
 
 ou
 $ yarn typeorm migration:run
-```
 
-```bash
 # Executar o servidor
 $ npm run dev:server
 ou 
@@ -82,7 +80,7 @@ $ yarn dev:server
 
 #### Rotas públicas
 
-### POST `/users/`
+##### POST `/users/`
 
 Este método recebe o nome, email e senha do usuário para criação...
 
@@ -121,7 +119,7 @@ Este método recebe o nome, email e senha do usuário para criação...
 | created_at  | Date    |
 | updated_at  | Date    |
 
-### POST `/sessions/`
+##### POST `/sessions/`
 
 Este método recebe o email e senha do usuário para autenticação...
 
@@ -177,9 +175,9 @@ Este método recebe o email e senha do usuário para autenticação...
 
 ---
 
-## Rotas privadas
+### Rotas privadas
 
-### PATCH `/users/avatar`
+##### PATCH `/users/avatar`
 
 Este método recebe o arquivo da foto, altera o avatar do usuário no banco de dados...
 
@@ -203,7 +201,7 @@ Este método recebe o arquivo da foto, altera o avatar do usuário no banco de d
 | created_at  | Date    |
 | updated_at  | Date    |
 
-### POST `/appointments`
+##### POST `/appointments`
 
 Este método recebe um id do provedor de serviço (apenas outro usuário, qualquer usuário pode ser um prestador de serviço), um data para agendamento...
 
@@ -239,7 +237,7 @@ Este método recebe um id do provedor de serviço (apenas outro usuário, qualqu
 | created_at  | Date    |
 | updated_at  | Date    |
 
-### GET `/appointments`
+##### GET `/appointments`
 
 Este método retorna os agendamentos do usuário autenticado
 
@@ -263,6 +261,7 @@ Este método retorna os agendamentos do usuário autenticado
 | created_at  | Date    |
 | updated_at  | Date    |
 
+Projeto GoBaber em desenvolvimento pela Gostack 14 da [Rocketseat](https://rocketseat.com.br/), ministrado por Diego Fernandes.
 
 <h3 align="center">
 💻 Em desenvolvimento por: Jorlan Miranda
