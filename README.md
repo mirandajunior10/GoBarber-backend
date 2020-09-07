@@ -48,8 +48,6 @@ $ git clone <https://github.com/mirandajunior10/GoBarber-backend>
 ### 🚦 Configurando e rodando o servidor
 
 ```bash
-# Acesse a pasta server no terminal/cmd
-$ cd server
 
 # Instale as dependências
 $ npm install
