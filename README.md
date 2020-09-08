@@ -12,9 +12,9 @@ Tabela de conteúdos
    * [Tecnologias utilizadas](#tecnologias-utilizadas)
    * Instalação
       * [Pré requisitos](#pré-requisitos)
-      * [Server](#server)
-      * [Web](#web)
-      * [Mobile](#mobile)
+      * [Clonando o repositório](#Clonando-o-repositório)
+      * [Configurando e rodando o servidor](#Configurando e rodando o servidor)
+   * [Rotas](#Rotas)
 <!--te-->
 
 ## Tecnologias utilizadas
