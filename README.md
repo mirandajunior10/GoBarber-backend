@@ -12,7 +12,7 @@ Tabela de conteúdos
    * [Tecnologias utilizadas](#tecnologias-utilizadas)
    * Instalação
       * [Pré requisitos](#pré-requisitos)
-      * [Clonando o repositório](#Clonando-o-repositório)
+      * [Clonando o repositório](#clonando-o-repositorio)
       * [Configurando e rodando o servidor](#configurando-e-rodando-o-servidor)
    * [Rotas](#Rotas)
 <!--te-->
