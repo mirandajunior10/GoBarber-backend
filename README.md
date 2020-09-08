@@ -13,7 +13,7 @@ Tabela de conteúdos
    * Instalação
       * [Pré requisitos](#pré-requisitos)
       * [Clonando o repositório](#Clonando-o-repositório)
-      * [Configurando e rodando o servidor](#Configurando e rodando o servidor)
+      * [Configurando e rodando o servidor](#configurando-e-rodando-o-servidor)
    * [Rotas](#Rotas)
 <!--te-->
 
