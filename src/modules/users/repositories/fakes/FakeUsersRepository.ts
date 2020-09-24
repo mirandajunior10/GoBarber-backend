@@ -7,13 +7,13 @@ import { uuid } from 'uuidv4';
 class FakeUsersRepository implements IUsersRepository {
   private users: User[] = [];
 
-  public async findById(id: string): Promise<User> {
+  public async findById(id: string): Promise<User | undefined> {
     const findUser = this.users.find(user => user.id === id);
 
     return findUser;
   }
 
-  public async findByEmail(email: string): Promise<User> {
+  public async findByEmail(email: string): Promise<User | undefined> {
     const findUser = this.users.find(user => user.email === email);
 
     return findUser;
