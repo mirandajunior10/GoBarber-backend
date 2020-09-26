@@ -35,7 +35,7 @@ Tabela de conteúdos
 ### Pré-requisitos
 Você precisa ter instalado em sua máquina as seguintes ferramentas:
 - [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en/) 
+- [Node.js](https://nodejs.org/en/)
 - [Docker](https://www.docker.com/) - Pra ajudar na configuração do docker, você pode seguir esse [tutorial](https://www.notion.so/Instalando-Docker-6290d9994b0b4555a153576a1d97bee2)
 
 ### 🎲 Clonando o repositório
@@ -71,7 +71,7 @@ $ yarn typeorm migration:run
 
 # Executar o servidor
 $ npm run dev:server
-ou 
+ou
 $ yarn dev:server
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
@@ -93,7 +93,7 @@ Este método recebe o nome, email e senha do usuário para criação...
   "name": "João",
   "email": "João@email.com",
   "password": "123456"
-  
+
 }
 ```
 
@@ -131,7 +131,7 @@ Este método recebe o email e senha do usuário para autenticação...
 {
   "email": "João@email.com",
   "password": "123456"
-  
+
 }
 ```
 
