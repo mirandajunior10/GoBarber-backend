@@ -13,7 +13,7 @@ export default {
   defaults: {
     from: {
       email: 'suporte@jorlan.net',
-      name: 'Jorlan - Suporte',
+      name: 'Equipe GoBarber',
     },
   },
 } as IMailConfig;
